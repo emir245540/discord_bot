@@ -22,4 +22,9 @@ async def heh(ctx, count_heh = 5):
 async def carpma(ctx, sayi1, sayi2 ):
     await ctx.send(f"Sayıların Çarpımı: {int(sayi1) * int(sayi2)}")
 
-bot.run("MTIwMzc1Mjc3NzM3MzcxNjUxMA.G6M7oP.K-lIaFJiPlNIqk5ayvqm_nX9lGahfy_OXhBM5I")
+@bot.command()
+async def bolme(ctx, sayi1, sayi2 ):
+    await ctx.send(f"Sayıların Bölümü: {int(sayi1) / int(sayi2)}")
+
+
+bot.run("Enter The Token")
